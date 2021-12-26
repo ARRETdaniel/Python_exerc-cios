@@ -7,7 +7,7 @@ Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez
 Curso criado pelo Prof. Gustavo Guanabara</h5>
 
 ### Link aulas:
-- [Exercícios] <a href="https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" target="_blank">Exercícios de Python 3</a>
+- <a href="https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" target="_blank">Exercícios de Python 3</a>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
