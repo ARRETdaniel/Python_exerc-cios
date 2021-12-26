@@ -1,11 +1,11 @@
 <h1 align="left">Exercício Python - Curso em Video</h1>
 <h4 align="left">Repo</h4>
 
-<h3 align="left">Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras.</h3>
+<h5 align="left">Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras.</h5>
 
-<h3 align="left">Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender.</h3>
+<h5 align="left">Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender.</h5>
 
-<h3 align="left">Curso criado pelo Prof. Gustavo Guanabara</h3>
+<h5 align="left">Curso criado pelo Prof. Gustavo Guanabara</h5>
 
 ### Link aulas:
 - <a href="https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" target="_blank">Exercícios de Python 3</a>
