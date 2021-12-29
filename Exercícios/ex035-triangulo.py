@@ -1,3 +1,4 @@
+#
 print('Digite o comprimento de 3 retas:')
 a = float(input('Primeira reta: '))
 b = float(input('Segunda reta: '))

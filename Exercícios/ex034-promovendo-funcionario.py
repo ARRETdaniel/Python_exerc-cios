@@ -1,3 +1,4 @@
+# 
 salario = float(input('Digite o salário do funcionário: R$'))
 if salario > 1250:
     aumento = 0.1
