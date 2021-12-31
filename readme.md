@@ -1,7 +1,7 @@
 # Exercícios de Python
 
 ### Repositório de ***todos*** os exercícios do [Curso em Vídeo](https://www.youtube.com/cursoemvideo) de Python 3.
-- Todos os [Exercícios](Exercícios/README.md) aqui.
+- Todos os [***exercícios***](Exercícios/README.md) **Mundo 1, 2 e 3** aqui.
 
 Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras.
 Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender.
