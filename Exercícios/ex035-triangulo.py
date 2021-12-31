@@ -1,10 +1,12 @@
-#
-#
+# Exercício Python 035: Desenvolva um programa que leia o comprimento de
+# três retas e diga ao usuário se elas podem ou não formar um triângulo.
+
 print('Digite o comprimento de 3 retas:')
-a = float(input('Primeira reta: '))
-b = float(input('Segunda reta: '))
-c = float(input('Terceira reta: '))
+r1 = float(input('Primeira reta: '))
+r2 = float(input('Segunda reta: '))
+r3 = float(input('Terceira reta: '))
 existe = False
-if b - c < a < b + c and a - c < b < a + c and a - b < c < a + b:
+if r2 - r3 < r1 < r2 + r3 and r1 - r3 < r2 < r1 + r3 and r1 - r2 < r3 < r1 + r2:
     existe = True
 print('É' if existe else 'Não é', end=' um triângulo')
+
