@@ -1,10 +1,10 @@
 # Exercícios de Python
 
-Repositório de exercícios do [Curso em Vídeo](https://www.youtube.com/cursoemvideo) de Python 3
+### Repositório de exercícios do [Curso em Vídeo](https://www.youtube.com/cursoemvideo) de Python 3
 
-<h5 align="left">Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras.
+Python é uma linguagem ultra moderna, utilizada pelo Google, YouTube, Industrial Light & Magic, Globo e muitas outras.
 Fácil de aprender, com código limpo e organizado, Python vem ganhando cada vez mais espaço, e chegou a sua hora de aprender.
-Curso criado pelo Prof. Gustavo Guanabara</h5>
+Curso criado pelo Prof. Gustavo Guanabara.
 
 ### Link aulas:
 - <a href="https://youtube.com/playlist?list=PLHz_AreHm4dm6wYOIW20Nyg12TAjmMGT-" target="_blank">Exercícios de Python 3</a>
