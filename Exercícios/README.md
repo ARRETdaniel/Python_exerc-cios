@@ -52,5 +52,25 @@
   - Média abaixo de 5.0: REPROVADO
   - Média entre 5.0 e 6.9: RECUPERAÇÃO
   - Média 7.0 ou superior: APROVADO
+* Exercício Python 041: A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:
+  - Até 9 anos: MIRIM
+  - Até 14 anos: INFANTIL
+  - Até 19 anos: JÚNIOR
+  - Até 25 anos: SÊNIOR
+  - Acima de 25 anos: MASTER
+* Exercício Python 042: Refaça o DESAFIO 035 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+  - EQUILÁTERO: todos os lados iguais
+  - ISÓSCELES: dois lados iguais, um diferente
+  - ESCALENO: todos os lados diferentes
+* Exercício Python 043: Desenvolva uma lógica que leia o peso e a altura de uma pessoa, calcule seu Índice de Massa Corporal (IMC) e mostre seu status, de acordo com a tabela abaixo:
+  - IMC abaixo de 18,5: Abaixo do Peso
+  - Entre 18,5 e 25: Peso Ideal
+  - 25 até 30: Sobrepeso
+  - 30 até 40: Obesidade
+  - Acima de 40: Obesidade Mórbida
+*
+*
+*
+
 
 # Mundo 3
