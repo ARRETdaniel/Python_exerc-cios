@@ -1,3 +1,4 @@
+# Exercício Python 045: Crie um programa que faça o computador jogar Jokenpô com você.
 from random import randint
 from time import sleep
 
@@ -29,8 +30,8 @@ while True:
         print('{}Ken{}'.format(amarelo, limpa), end='')
         sleep(1)
         print('{}Po!{}'.format(azulClaro, limpa))
-        
-        vencedor = ''   
+
+        vencedor = ''
         if player == machine:
             vencedor = 'Ninguém'
         elif player == 0 and machine == 1:
@@ -52,7 +53,8 @@ while True:
 
         resposta = str(input('Quer jogar de novo? [S ou N]? ')).strip().lower()
         while resposta not in 'sn':
-            resposta = str(input('Por favor, somente S ou N: ')).strip().lower()
+            resposta = str(input('Por favor, somente S ou N: ')
+                           ).strip().lower()
 
         if resposta == 'n':
             break
