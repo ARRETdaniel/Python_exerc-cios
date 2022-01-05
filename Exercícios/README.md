@@ -75,7 +75,7 @@
   - 3x ou mais no cartão: 20% de juros
 * Exercício Python 045: Crie um programa que faça o computador jogar Jokenpô com você.
 * Exercício Python 046: Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício, indo de 10 até 0, com uma pausa de 1 segundo entre eles.
-*
+* Exercício Python 047: Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50.
 
 
 # Mundo 3
