@@ -1,5 +1,10 @@
+# Exercício Python 049: Refaça o DESAFIO 009, mostrando a tabuada de um número que o usuário escolher,
+# só que agora utilizando um laço for.
 print('\nSmart Tabuada')
-n = int(input('Informe um número para exibir sua tabuada: '))
-print('{:-^14}'.format(n))
-for c in range(1, 11):
-    print(' {} x {:<2} = {}'.format(n, c, n * c))
+
+num = int(input('Informe um número para exibir sua tabuada: '))
+
+print('{:-^14}'.format(num))
+
+for count in range(1, 11):
+    print(' {} x {:<2} = {}'.format(num, count, num * count))
