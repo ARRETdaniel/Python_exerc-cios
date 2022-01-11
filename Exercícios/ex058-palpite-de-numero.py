@@ -1,3 +1,6 @@
+# Exercício Python 058: Melhore o jogo do DESAFIO 028 onde o computador vai
+# "pensar" em um número entre 0 e 10. Só que agora o jogador vai tentar
+# adivinhar até acertar, mostrando no final quantos palpites foram necessários para vencer.
 from random import randint
 from time import sleep
 
@@ -33,10 +36,14 @@ while not certo:
             if tentativas == 1:
                 print('Parabéns, você acertou \033[34mde primeira\033[36m!')
             else:
-                print('Você acertou em \033[34m{}\033[36m tentativas!'.format(tentativas))
+                print(
+                    'Você acertou em \033[34m{}\033[36m tentativas!'.format(tentativas))
             opcao = str(input('\nJogar Novamente [S ou N]? ')).strip().upper()
+
             while opcao not in 'SN':
-                opcao = str(input('Opção Inválida, digite S ou N ')).strip().upper()
+                opcao = str(input('Opção Inválida, digite S ou N ')
+                            ).strip().upper()
+
             if opcao == 'S':
                 tentativas = 0
                 computador = randint(0, 10)
