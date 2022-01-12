@@ -1,8 +1,18 @@
+# Exercício Python 059: Crie um programa que leia dois valores e mostre um menu na tela:
+# [1] somar
+# [2] multiplicar
+# [3] maior
+# [4] novos números
+# [5] sair do programa
+# Seu programa deverá realizar a operação solicitada em cada caso.
 prompt = True
 menu = True
 opcao = 0
 
 while prompt:
+
+    print('\n Bem-vindo a sua cal')
+
     n1 = int(input('Digite um número: '))
     n2 = int(input('Digite outro número: '))
 
@@ -15,13 +25,20 @@ while prompt:
         {0}[4]{1}Redefinir Números
         {0}[5]{1}Sair do programa{2}
         """.format('\033[33m', '\033[34m', '\033[m'))
+
         opcao = int(input('Sua opção: '))
+
         while str(opcao) not in '12345':
-            opcao = int(input('Opção inválida, tente novamente: '))
+            opcao = int(input('Opção inválida!\ntente novamente: '))
+
         if opcao == 1:
-            print('\nA soma entre \033[33m{}\033[m e \033[33m{}\033[m é \033[34m{}\033[m\n'.format(n1, n2, n1 + n2))
+            print('\nA soma entre \033[33m{}\033[m e \033[33m{}\033[m é \033[34m{}\033[m\n'.format(
+                n1, n2, n1 + n2))
+
         elif opcao == 2:
-            print('\n\033[33m{}\033[m vezes \033[33m{}\033[m é \033[34m{}\033[m\n'.format(n1, n2, n1 * n2))
+            print('\n\033[33m{}\033[m vezes \033[33m{}\033[m é \033[34m{}\033[m\n'.format(
+                n1, n2, n1 * n2))
+
         elif opcao == 3:
             if n1 > n2:
                 print('\nO maior número é \033[34m{}\033[m\n'.format(n1))
@@ -29,8 +46,10 @@ while prompt:
                 print('\nO maior número é \033[34m{}\033[m\n'.format(n2))
             elif n1 == n2:
                 print('\nOs dois números são \033[34mIGUAIS\033[m\n')
+
         elif opcao == 4:
             menu = False
+
         elif opcao == 5:
             menu = False
             prompt = False
