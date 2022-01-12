@@ -94,5 +94,8 @@
   - [ 4 ] novos números
   - [ 5 ] sair do programa
 Seu programa deverá realizar a operação solicitada em cada caso.
-*
+* Exercício Python 060: Faça um programa que leia um número qualquer e mostre o seu fatorial.
+Ex: 5! = 5 x 4 x 3 x 2 x 1 =
+* Exercício Python 061: Refaça o DESAFIO 051, lendo o primeiro termo e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a estrutura while.
+* Exercício Python 062: Melhore o DESAFIO 061, perguntando para o usuário se ele quer mostrar mais alguns termos. O programa encerrará quando ele disser que quer mostrar 0 termos.
 # Mundo 3
