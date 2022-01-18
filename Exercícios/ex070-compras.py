@@ -1,5 +1,12 @@
+# Exercício Python 070: Crie um programa que leia o nome e o preço de vários produtos.
+# O programa deverá perguntar se o usuário vai continuar ou não. No final, mostre:
+# - A) qual é o total gasto na compra.
+# - B) quantos produtos custam mais de R$1000.
+# - C) qual é o nome do produto mais barato.
 print('\nBalog Store')
+
 cont = mil = soma = menor = 0
+
 while True:
     nome = str(input('\nNome do produto: ')).strip()
     preco = float(input('Preço: R$'))
@@ -15,6 +22,7 @@ while True:
         mil += 1
 
     continuar = str(input('Continuar? [S ou N] ')).strip().upper()
+    
     while continuar not in 'SN':
         continuar = str(input('Por favor, apenas S ou N: ')).strip().upper()
     if continuar == 'N':
