@@ -109,4 +109,9 @@ Ex: 5! = 5 x 4 x 3 x 2 x 1 =
   - A) qual é o total gasto na compra.
   - B) quantos produtos custam mais de R$1000.
   - C) qual é o nome do produto mais barato.
+* Exercício Python 071: Crie um programa que simule o funcionamento de um caixa eletrônico. No início, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o programa vai informar quantas cédulas de cada valor serão entregues.
+OBS: considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
+
 # Mundo 3
+
+* Exercício Python 072: Crie um programa que tenha uma dupla totalmente preenchida com uma contagem por extenso, de zero até vinte. Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
