@@ -9,36 +9,28 @@ Problema: Crie um programa que gerencie o aproveitamento de um jogador de futebo
 
 Resolução do problema:
 """
+# resposta do Gustavo
 jogador = dict()
+partidas = list()
+jogador['nome'] = str(input('Nome do jogador: '))
+tot = int(input(f'Quantas partidas {jogador["nome"]} jogou? '))
 
-jogador['nome'] = input('Nome do jogador: ').strip().capitalize()
-qtdPartidas = int(input(f'Quantas partidas {jogador["nome"]} jogou: '))
-print()
+for c in range(0, tot):
+    partidas.append(int(input(f'    Quantos gols na partida {c}?')))
+jogador['gols'] = partidas[:]
+jogador['total'] = sum(partidas)
 
-jogador['gols'] = []  # Adicionando lista de gols na ficha do jogador
-totGols = 0
-
-# Adicionando gols
-for partida in range(qtdPartidas):
-    jogador['gols'].append(int(input(f'\tGols da {partida + 1}º partida: ')))
-    totGols += jogador['gols'][partida]
-
-# Adicionando o total de gols feitos na ficha do jogador
-jogador['total'] = totGols
-
-# Dicionário completo
-print()
-print('-' * 60)
+print('-='*30)
 print(jogador)
-print('-' * 60)
+print('-='*30)
 
-# Campos e seus dados
-for chave, valor in jogador.items():
-    print(f'O campo {chave} tem o valor {valor}.')
-print()
+for k, v in jogador.items():
+    print(f'O campo {k} tem o valor {v}')
 
-# Mostrando gols por partida
-print(f'O jogador {jogador["nome"]} jogou {qtdPartidas} partidas.')
-for partida, gol in enumerate(jogador['gols']):
-    print(f'\t--> Na {partida + 1}º, fez {gol} gols.')
-print(f'Foi um total de {jogador["total"]}')
+print('-='*30)
+
+print(f'O jogador {jogador["nome"]} jogou {len(jogador["gols"])} partidas')
+
+for i, v in enumerate(jogador['gols']):
+    print(f'    ==> Na partida {i}, fez {v} gols')
+print(f'Foi um total de {jogador["total"]} gols')
