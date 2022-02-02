@@ -186,3 +186,5 @@ Adicione também as docstrings dessa função para consulta pelo desenvolvedor.
 * Exercício Python 112: Dentro do pacote utilidadesCeV que criamos no desafio 111, temos um módulo chamado dado. Crie uma função chamada leiaDinheiro() que seja capaz de funcionar como a função imputa(), mas com uma validação de dados para aceitar apenas valores que seja monetários.
 * Exercício Python 113: Reescreva a função leiaInt() que fizemos no desafio 104, incluindo agora a possibilidade da digitação de um número de tipo inválido. Aproveite e crie também uma função leiaFloat() com a mesma funcionalidade.
 * Exercício Python 114: Crie um código em Python que teste se o site pudim está acessível pelo computador usado.
+* Exercício Python 115a: Vamos criar um menu em Python, usando modularização.
+* 
