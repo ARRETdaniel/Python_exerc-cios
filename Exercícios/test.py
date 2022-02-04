@@ -1,5 +1,5 @@
-from Exercícios.ex115.lib.interface import *
-from Exercícios.ex115.lib.arquivo import *
+from ex115.lib.interface import *
+from ex115.lib.arquivo import *
 from time import sleep
 
 n = "Compan2y"
@@ -12,7 +12,7 @@ else:
 
 
 if not n.replace(' ', '').isalpha():
-  print('Bad name!!!')
+  print('Bad name!')
 else:
   print('Good name!')
 

@@ -3,13 +3,36 @@ def leiaInt(msg):
         try:
             n = int(input(msg))
         except (ValueError, TypeError):
-            print('\033[31mErro: por favor, digite um numero inteiro válido.\033[m')
+            print(
+                '\033[31mErro: por favor, digite um numero inteiro válido.\033[m')
             continue
         except (KeyboardInterrupt):
             print('\n\033[31mUsuario preferiu nao digitar esse numero.\033[m')
             return 0
         else:
             return n
+
+
+def leiaString(msg):
+    while True:
+        try:
+
+            name = input(msg)
+            # if ((len(name) > 2) & (name.isalpha())):
+            if (name.replace(' ', '').isalpha()):
+                break
+            else:
+                raise TypeError
+
+        except (KeyboardInterrupt):
+            print('\n\033[31mUsuario preferiu nao digitar.\033[m')
+            return ''
+        except (ValueError, TypeError):
+            print(
+                '\033[31mErro: por favor, digite um nome com apenas str.\033[m')
+            continue
+        else:
+            return name
 
 
 def linha(tam=42):
@@ -31,7 +54,3 @@ def menu(lista):
     print(linha())
     opc = leiaInt('\033[32mSua opção:\033[m ')
     return opc
-
-
-
-

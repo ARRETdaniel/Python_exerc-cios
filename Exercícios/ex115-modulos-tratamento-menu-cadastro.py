@@ -27,7 +27,7 @@ while True:
     elif resposta == 2:
         #Opcao de cadastrar uma pessoa
         cabecalho('NOVO CADASTRO')
-        nome = str(input('Nome: '))
+        nome = leiaString('Nome: ')
         idade = leiaInt('Idade: ')
         cadastrar(arq, nome, idade)
     elif resposta == 3:
