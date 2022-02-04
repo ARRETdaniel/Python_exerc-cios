@@ -1,11 +1,2 @@
 juju, 22
-ue, 9
-66, 0
-###, 2
-, 2
-None, 33
-None, 22
-None, 22
-None, 2
-None, 2
-None, 2
+

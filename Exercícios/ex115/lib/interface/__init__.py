@@ -16,11 +16,11 @@ def leiaInt(msg):
 def leiaString(msg):
     while True:
         try:
-
             name = input(msg)
             # if ((len(name) > 2) & (name.isalpha())):
             if (name.replace(' ', '').isalpha()):
-                break
+                name
+                # break
             else:
                 raise TypeError
 
@@ -31,6 +31,7 @@ def leiaString(msg):
             print(
                 '\033[31mErro: por favor, digite um nome com apenas str.\033[m')
             continue
+
         else:
             return name
 
