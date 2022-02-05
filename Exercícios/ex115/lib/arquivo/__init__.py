@@ -13,7 +13,7 @@ def arquivoExiste(nome):
 
 def criarArquivo(nome):
     try:
-        a = open(nome, 'wt+') # + cria o arquivo 
+        a = open(nome, 'wt+')  # + cria o arquivo
         a.close()
     except:
         print('Houve um ERRO na criacao do arquivo')
@@ -29,7 +29,7 @@ def lerArquivo(nome):
     else:
         cabecalho('PESSOAS CADASTRADAS')
         for linha in a:
-            dado = linha.split(';')
+            dado = linha.split(',')
             dado[1] = dado[1].replace('\n', '')
             print(f'{dado[0]:<30}{dado[1]:>3} anos')
     finally:
@@ -38,7 +38,7 @@ def lerArquivo(nome):
 
 def cadastrar(arq, nome='desconhecido', idade=0):
     try:
-        a = open(arq, 'at')
+        a = open(arq, 'at')  # append to arq txt
     except:
         print('Houve um erro na abertura do arquivo!')
     else:

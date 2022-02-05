@@ -13,20 +13,20 @@ from ex115.lib.arquivo import *
 from time import sleep
 
 
-
 arq = 'cursoemvideo.txt'
 
 if not arquivoExiste(arq):
     criarArquivo(arq)
 
 while True:
-    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do sistema'])
+    resposta = menu(['Ver pessoas cadastradas',
+                     'Cadastrar nova pessoa', 'Sair do sistema'])
     if resposta == 1:
-        #Opcao de listar o conteudo de um arquivo
+        # Opcao de listar o conteudo de um arquivo
         lerArquivo(arq)
     elif resposta == 2:
-        #Opcao de cadastrar uma pessoa
-        cabecalho('NOVO CADASTRO')
+        # Opcao de cadastrar uma pessoa
+        cabecalho('NOVO1 CADASTRO')
         nome = leiaString('Nome: ')
         idade = leiaInt('Idade: ')
         cadastrar(arq, nome, idade)
